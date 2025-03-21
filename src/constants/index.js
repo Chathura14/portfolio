@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import audiototext from "../assets/projects/audiototext.png";
+import pygame from "../assets/projects/pygame.png";
+import weatherapp from "../assets/projects/weatherapp.png";
 
 export const HERO_CONTENT = `I am a passionate and dedicated Full Stack Developer and a 4th-year IT undergraduate at SLIIT. With hands-on experience in front-end technologies like React, Next.js, and Tailwind CSS, along with back-end expertise in Spring Boot and Node.js, I specialize in building scalable and efficient applications. My knowledge extends to databases like MySQL and MongoDB, and I have a strong interest in AI/ML. I thrive on solving complex problems, learning new technologies, and creating innovative solutions that enhance user experiences and drive business growth.`;
 
@@ -35,7 +35,7 @@ export const PROJECTS = [
   },
   {
     title: "Speech to Text Transcriber",
-    image: project2,
+    image: audiototext,
     description:
       "Developed a speech-to-text transcription app using Spring Boot, Spring AI, and React. Designed to process previously recorded audio files, converting speech into accurate text transcriptions. Integrated AI-powered speech recognition for improved accuracy and usability.",
     technologies: ["SpringBoot", "React", "SpringAI"],
@@ -43,7 +43,7 @@ export const PROJECTS = [
   },
   {
     title: "Space Game",
-    image: project3,
+    image: pygame,
     description:
       "Developed a simple space game using Pygame, featuring player-controlled movement, obstacle avoidance, and score tracking. Implemented smooth gameplay mechanics and interactive elements to enhance user experience.",
     technologies: ["Python"],
@@ -51,7 +51,7 @@ export const PROJECTS = [
   },
   {
     title: "Weather Tracking Application",
-    image: project4,
+    image: weatherapp,
     description:
       "Developed a weather tracking app using Node.js, React, and MongoDB. The application provides a 7-day weather forecast for user-searched cities, allows users to subscribe for hourly weather updates via email, and displays the latest weather news for real-time insights.",
     technologies: ["MongoDB", "React", "Node"],
